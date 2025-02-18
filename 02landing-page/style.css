@@ -16,12 +16,13 @@
     margin: auto;
   }
   
-  /* Header Section */
+  /* Header Section */ /* Styling Header dengan Gradien Biru ke Merah */
   .header {
-    background: #4CAF50;
+    background: linear-gradient(90deg, blue, red);
     color: white;
     text-align: center;
     padding: 100px 20px;
+    color: white;
   }
 
   /* Styling Header dengan Gradien Biru ke Merah */
