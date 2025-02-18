@@ -1,0 +1,134 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Header Section */
+  .header {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+
+  /* Styling Header dengan Gradien Biru ke Merah */
+header {
+  background: linear-gradient(90deg, blue, red);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+  
+  .header h1 {
+    font-size: 2.5em;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    background: #FFC107;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .cta-button:hover {
+    background: #FFA000;
+  }
+  
+  /* Features Section */
+  .features {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .feature-items {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .feature-item {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .testimonial-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .testimonial-item {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  /* Checkout Section */
+  .checkout {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .checkout form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .checkout input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Footer Section */
+  .footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .animate {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease-out;
+  }
+  
+  .animate.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
