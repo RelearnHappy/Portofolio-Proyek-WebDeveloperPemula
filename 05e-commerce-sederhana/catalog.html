@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalog - Digital Products</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalog.html">Catalog</a></li>
+                <li><a href="#">Cart (0)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="filters">
+            <h2>Filter by Category:</h2>
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="ebook">Ebooks</button>
+            <button class="filter-btn" data-filter="ecourse">Ecourses</button>
+        </section>
+
+        <section class="products">
+            <!-- Ebook Example -->
+            <div class="product-item ebook">
+                <img src="/images/Ebook Title 1.jpeg" alt="Ebook Cover">
+                <h3>Ebook Title 1</h3>
+                <p>$9.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <!-- Ecourse Example -->
+            <div class="product-item ecourse">
+                <img src="/images/Ecourse Title 1.jpeg" alt="Ecourse Cover">
+                <h3>Ecourse Title 1</h3>
+                <p>$19.99</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <!-- More products can be added here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 E-Commerce Digital Products</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
