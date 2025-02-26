@@ -8,3 +8,6 @@ portfolio-website/
 hasil tampilan ada di file:
 1.png
 2.png
+
+deploy on vercel:
+visit ----> https://proyek-web-developer.vercel.app/
