@@ -4,4 +4,5 @@
   |-- script.js     // File JavaScript untuk logika aplikasi
 
 
-
+Deploy on Vercel:
+https://todo-apps-sederhana.vercel.app/
