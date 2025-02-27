@@ -6,3 +6,7 @@
 │   └── style.css       # File CSS untuk styling
 └── images/             # Direktori untuk gambar-gambar
     └── ai.jpg          # Contoh gambar artikel AI
+
+
+Deploy on Vercel:
+https://blog-sederhana.vercel.app/
