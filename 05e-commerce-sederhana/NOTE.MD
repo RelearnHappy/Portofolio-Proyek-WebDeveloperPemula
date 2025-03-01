@@ -8,6 +8,8 @@
     checkout.html
 
 
+Deploy on Vercel:
+https://e-commerce-sederhana.vercel.app/
 
 
 
